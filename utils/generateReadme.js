@@ -3,7 +3,7 @@ const fs = require('fs');
 // TODO: Create a function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/readme.md', fileContent, err => {
+        fs.writeFile('./dist/READme.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;
@@ -11,7 +11,7 @@ const writeFile = fileContent => {
 
             resolve({
                 ok: true,
-                message: 'File Created! please check your dist directoryfor your new Readme!'
+                message: 'File Created! please check the "dist" folder for your new Readme!'
             });
         });
     });

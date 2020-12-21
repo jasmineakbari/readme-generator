@@ -48,12 +48,12 @@ const init = () => {
         {
             type: 'input',
             name: 'installation',
-            message: 'Provide any installation instruction or press enter to decline.'
+            message: 'Provide any installation instruction or press "enter" to decline.'
         },
         {
             type: 'input',
             name: 'contributing',
-            message: 'Provide any instructions for contributors or press enter to decline.'
+            message: 'Provide any instructions for contributors or press "enter" to decline.'
         },
         {
             type: 'checkbox',
@@ -64,12 +64,12 @@ const init = () => {
         {
             type: 'input',
             name: 'tests',
-            message: 'Provide any conducted test results or press enter if none.'
+            message: 'Provide any conducted test results or press "enter" if none.'
         },
         {
             type: 'input',
-            name: 'questions',
-            message: 'Provide your email if you are ok with people contacting you regarding your project Provide any conducted test results or press enter to decline.'
+            name: 'email',
+            message: 'Provide your email if you are ok with people contacting you regarding your project Provide any conducted test results or press "enter" to decline.'
         }
     ])
 }
